@@ -1,0 +1,77 @@
+body{
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+}
+/*Con text-stroke podemos definir los píxeles y el color de nuestro trazo de la siguiente manera:
+*/
+
+/*h1 {  
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}*/
+
+/*Al igual que con muchas propiedades de CSS, podemos hacerlo más fácil:*/
+/*en una sola linea */
+
+/*h1 {  
+   -webkit-text-stroke: 2px black;
+}*/
+
+h1 {  
+	font-size: 3em;
+   color: black;  /*Por defecto toma color de letra negra*/
+   -webkit-text-fill-color: white;  /*Si el navegador lo soporta, cambiare el color defecto a blanco*/
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+
+.word1{
+	font-size: 4em;
+   color: black;
+   -webkit-text-fill-color: purple;
+   -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: salmon;	
+}
+
+.word2{
+	font-size: 4em;
+   color: black;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: salmon;	
+}
+
+.word3{
+	font-size: 4em;
+   color: orange;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: green;	
+}
+
+.word4{
+	font-size: 4em;
+   color: orange;
+   -webkit-text-fill-color: salmon;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;	
+}
+
+.word5{
+	font-size: 4em;
+   color: orange;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+   border: 2px solid black;
+   width: 400px;
+   margin: 0 auto;	
+}
+
+
+.word6{
+   font-size:  5em;
+   color: orange;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke: 3px orange;
+}
